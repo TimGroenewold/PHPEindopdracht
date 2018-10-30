@@ -11,19 +11,34 @@ body
 }
 #content
 {
-    height:100%;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
 }
-#title
-{
-    
+#welkom { 
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
 }
-#welkom
-{
-    height:500px;
-    width:500px;
-    padding-top:300px;
-    padding-left:500px
-}  
+#welkomContent { 
+	left: 20%;
+	right: 20%;
+	width: 60%;
+	height: 100vh;
+	position: relative;
+}
+#intro {
+	padding-top: 10vh;
+	font-size: 90px;
+}
+#introText {
+	font-size: 25px;
+	width: 60%;
+	float: right;
+	margin-top: 6vh;
+	overflow: hidden;
+	padding: 10px;
+} 
 #header
 {
     height:100px;
