@@ -58,7 +58,7 @@
             <div class="navblock">
 		<ul>
 			<li><a href="index.php">Home</a></li>
-                        <li><a href="Eindopdracht.php">Weather</a></li>
+                        <li><a href="Weather.php">Weather</a></li>
                         <li><a href="Rssfeed.php">Rss Feed</a></li>
                         <li><a href="Myinterests.php">My Interests</a></li>
                         <li><a href="Infoform.php">Info Form</a></li>
