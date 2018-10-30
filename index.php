@@ -18,11 +18,13 @@
             </div>
         </div>  
             <div id="content">
-                <div id="welkom">
-                    <?php
-                        echo "Welkom op de website voor de PHP eindopdracht van Tim Groenewold";
-                    ?>
-                </div>
+                <div id="title">
+                    <div id="welkom">
+                        <?php
+                            echo "Welkom op de website voor de PHP eindopdracht van Tim Groenewold";
+                        ?>
+                    </div>
+                </div>    
             </div>
     </body>
 </html>
