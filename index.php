@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Homepage</title>
     </head>
     <body>
+         <div id="header"> 
+            <div class="navblock">
+		<ul>
+			<li><a href="index.php">Home</a></li>
+                        <li><a href="Eindopdracht.php">Weather</a></li>
+                        <li><a href="Rssfeed.php">Rss Feed</a></li>
+                        <li><a href="Myinterests.php">My Interests</a></li>
+                        <li><a href="Infoform.php">Info Form</a></li>
+		</ul>
+            </div>
+        </div>  
+            <div id="content">
+                
+            </div>
         <?php
-        // put your code here
+            
         ?>
     </body>
 </html>

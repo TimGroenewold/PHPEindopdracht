@@ -1,3 +1,6 @@
+*{
+	margin: 0;
+}
 body
 {
  margin:0 auto;
@@ -5,45 +8,87 @@ body
  font-family:arial;
  background-color:lightskyblue;
 }
+#header
+{
+    height:100px;
+    background-color: black;
+    float:none
+}
 #content
 {
- text-align:center;
- margin:0 auto;
- padding:0px;
- width:995px;
+    height:100%;
 }
-#wrapper h1
+#rssfeed
+
+{
+ text-align:center;
+ width:500px;
+}
+#rssfeed h1
 {
  margin-top:100px;
  font-size:40px;
 }
-#wrapper h1 p
+#rssfeed h1 p
 {
  font-size:17px;
 }
-#wrapper #feed_div
+#rssfeed #feed_div
 {
  background-color:white;
  width:550px;
  height:450px;
  overflow-y:scroll;
- margin-left:220px;
- margin-top:20px;
+ margin-left:650px;
+ margin-top:100px;
  text-align:left;
  border:1px solid silver;
  padding:10px;
 }
-#wrapper #feed_div h2
+#rssfeed #feed_div h2
 {
  font-size:17px;
 }
-#wrapper #feed_div .title a
+#rssfeed #feed_div .title a
 {
  text-decoration:none;
  color:#0080FF;
 }
-#header
+.navblock
 {
-    height:100px;
-    background-color: black;
+    width: 100%;
+	margin-top: 100%;
+	position: fixed;
+	top: 0;
+    margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    color: black;
+	background-color: black;
+	text-align: center;
+	z-index: 1;
+}
+.navblock p
+{
+	display: inline-block;
+}
+.navblock ul li
+{
+	display: inline-block;
+	list-style-type: none;
+}
+.navblock a
+{
+	padding-right: 25px;
+	padding-left: 25px;
+	color: white;
+	text-decoration: none;
+}
+.navblock a:hover
+{
+	color:yellow;
+}
+.navblock a:active
+{
+	color:red;
 }
