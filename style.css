@@ -1,11 +1,11 @@
 body
 {
-
  margin:0 auto;
  padding:0px;
-
+ font-family:arial;
+ background-color:lightskyblue;
 }
-#wrapper
+#content
 {
  text-align:center;
  margin:0 auto;
@@ -46,10 +46,4 @@ body
 {
     height:100px;
     background-color: black;
-}
-#content
-{
- height:900px;
- font-family:arial;
- background-color:lightskyblue;
 }
