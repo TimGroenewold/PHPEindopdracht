@@ -9,6 +9,14 @@ body
  font-family:arial;
  background-color:lightskyblue;
 }
+#content
+{
+    height:100%;
+}
+#title
+{
+    
+}
 #welkom
 {
     height:500px;
@@ -22,10 +30,7 @@ body
     background-color: black;
     float:none
 }
-#content
-{
-    height:100%;
-}
+
 #rssfeed
 
 {
