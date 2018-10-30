@@ -36,10 +36,10 @@ body
 #rssfeed #feed_div
 {
  background-color:white;
- width:550px;
- height:450px;
+ width:750px;
+ height:650px;
  overflow-y:scroll;
- margin-left:650px;
+ margin-left:120%;
  margin-top:100px;
  text-align:left;
  border:1px solid silver;
