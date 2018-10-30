@@ -54,7 +54,7 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <div id="header"> 
+        <div class="header"> 
             <div class="navblock">
 		<ul>
 			<li><a href="index.php">Home</a></li>

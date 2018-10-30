@@ -1,4 +1,5 @@
-*{
+*
+{
 	margin: 0;
 }
 body
@@ -8,6 +9,13 @@ body
  font-family:arial;
  background-color:lightskyblue;
 }
+#welkom
+{
+    height:500px;
+    width:500px;
+    padding-top:300px;
+    padding-left:500px
+}  
 #header
 {
     height:100px;
