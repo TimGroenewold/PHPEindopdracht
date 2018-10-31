@@ -7,11 +7,10 @@ body
  margin:0 auto;
  padding:0px;
  font-family:arial;
- background-color:lightskyblue;
 }
 #content
 {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     margin: 0 auto;
 }
